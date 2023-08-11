@@ -636,7 +636,7 @@ int main(int argc, char const *argv[])
 			cppfile<<"cin>>";
 			size_t pos1 = focus.find("(");
 			size_t pos2 = focus.find(")");
-	--			string outdump = focus.substr(pos1+1);
+			string outdump = focus.substr(pos1+1);
 			if(*(outdump.end()-1)==')')
 			{
 				outdump.pop_back();
